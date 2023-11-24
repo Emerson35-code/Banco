@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+.conta {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 7px;
+    
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
